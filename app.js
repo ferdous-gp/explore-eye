@@ -103,7 +103,7 @@ function captureAndDetect() {
     // Run detection on the current video frame
     model.detect(video).then(predictions => {
         // Draw the predictions on the canvas
-        drawBoundingBoxes(predictions);
+        // drawBoundingBoxes(predictions);
 
         // Update UI with the top prediction
         if (predictions.length > 0) {

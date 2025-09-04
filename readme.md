@@ -1,1 +1,1 @@
-# Discount Offer Explorer
+# Offer Explorer
