@@ -128,7 +128,7 @@ function captureAndDetect() {
 const drawBoundingBoxes = (predictions) => {
     const ctx = canvas.getContext('2d');
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height); // Clear previous drawings
-
+    // console.log(predictions);
     predictions.forEach(prediction => {
         const [x, y, width, height] = prediction.bbox;
         const text = `${prediction.class} (${Math.round(prediction.score * 100)}%)`;
