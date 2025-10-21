@@ -2,3 +2,4 @@ node_modules
 scrapper/.venv
 .venv
 offers_new.json
+.vscode
